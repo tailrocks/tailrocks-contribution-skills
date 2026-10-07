@@ -1,9 +1,9 @@
 # Installation
 
-Install the package `tailrocks-open-source-skills` from the central
+Install the package `tailrocks-contribution-skills` from the central
 `tailrocks` marketplace. The marketplace source is
 `tailrocks/tailrocks-skills`. The qualified plugin id is
-`tailrocks-open-source-skills@tailrocks`. Always use the qualified id.
+`tailrocks-contribution-skills@tailrocks`. Always use the qualified id.
 It prevents collisions with same-named plugins.
 
 Each section below names the exact version, surface, and source. Shell
@@ -55,20 +55,20 @@ Run these shell commands:
 
 ```sh
 claude plugin marketplace add tailrocks/tailrocks-skills
-claude plugin install tailrocks-open-source-skills@tailrocks --scope user
+claude plugin install tailrocks-contribution-skills@tailrocks --scope user
 ```
 
 Inspect the install (shell):
 
 ```sh
 claude plugin list
-claude plugin details tailrocks-open-source-skills
+claude plugin details tailrocks-contribution-skills
 ```
 
 Use this selection example in the session:
 
 ```text
-/tailrocks-open-source-skills:tailrocks-contribute-recon OWNER/REPO
+/tailrocks-contribution-skills:tailrocks-contribute-recon OWNER/REPO
 ```
 
 Update and reload in the shell forms. Update one plugin (there is
@@ -76,7 +76,7 @@ no update-all), or refresh the marketplace listing and its installed
 plugins. After changes, reload in the session:
 
 ```sh
-claude plugin update tailrocks-open-source-skills@tailrocks
+claude plugin update tailrocks-contribution-skills@tailrocks
 claude plugin marketplace update tailrocks
 ```
 
@@ -87,7 +87,7 @@ claude plugin marketplace update tailrocks
 Remove the plugin in the shell form:
 
 ```sh
-claude plugin uninstall tailrocks-open-source-skills --scope user
+claude plugin uninstall tailrocks-contribution-skills --scope user
 ```
 
 These limits apply with their evidence. Marketplace removal
@@ -116,7 +116,7 @@ Run these shell commands:
 
 ```sh
 codex plugin marketplace add tailrocks/tailrocks-skills
-codex plugin add tailrocks-open-source-skills@tailrocks
+codex plugin add tailrocks-contribution-skills@tailrocks
 ```
 
 Inspect the install (shell):
@@ -141,7 +141,7 @@ codex plugin marketplace upgrade tailrocks
 Remove the plugin in the shell form:
 
 ```sh
-codex plugin remove tailrocks-open-source-skills@tailrocks
+codex plugin remove tailrocks-contribution-skills@tailrocks
 ```
 
 These limits apply with their evidence. Codex 0.160.1 has no
@@ -173,11 +173,11 @@ The install facts are:
 Clone once. Then add each of the five skill directories:
 
 ```sh
-git clone https://github.com/tailrocks/tailrocks-open-source-skills
+git clone https://github.com/tailrocks/tailrocks-contribution-skills
 for skill in tailrocks-contribute-recon tailrocks-contribute-propose \
     tailrocks-contribute-prepare tailrocks-contribute-submit \
     tailrocks-contribute-respond; do
-  amp skill add ./tailrocks-open-source-skills/skills/"$skill" \
+  amp skill add ./tailrocks-contribution-skills/skills/"$skill" \
     --name "$skill"
 done
 ```
@@ -196,7 +196,7 @@ Amp has no slash invoke. Ask the thread for the exact qualified
 skill by name:
 
 ```text
-Use the tailrocks-open-source-skills:tailrocks-contribute-recon skill on OWNER/REPO.
+Use the tailrocks-contribution-skills:tailrocks-contribute-recon skill on OWNER/REPO.
 ```
 
 After changes, run the `reload_skills` tool to update and reload.
@@ -244,7 +244,7 @@ Run these shell commands:
 
 ```sh
 muse plugins marketplace add tailrocks tailrocks/tailrocks-skills
-muse plugins install tailrocks-open-source-skills@tailrocks
+muse plugins install tailrocks-contribution-skills@tailrocks
 ```
 
 This package holds no hooks and no MCP servers, so there is usually
@@ -260,8 +260,8 @@ muse plugins list --json
 Validate a local checkout without install (shell, read-only):
 
 ```sh
-muse plugins validate ./tailrocks-open-source-skills --json
-muse skills validate ./tailrocks-open-source-skills/skills/tailrocks-contribute-recon
+muse plugins validate ./tailrocks-contribution-skills --json
+muse skills validate ./tailrocks-contribution-skills/skills/tailrocks-contribute-recon
 ```
 
 In the session, select the skill in the `/` picker. Invoke its
@@ -277,8 +277,8 @@ plugin through the remove-and-install sequence:
 
 ```sh
 muse plugins marketplace update tailrocks
-muse plugins remove tailrocks-open-source-skills@tailrocks
-muse plugins install tailrocks-open-source-skills@tailrocks
+muse plugins remove tailrocks-contribution-skills@tailrocks
+muse plugins install tailrocks-contribution-skills@tailrocks
 ```
 
 When the client asks, re-approve.
@@ -286,7 +286,7 @@ When the client asks, re-approve.
 Remove the plugin in the shell form:
 
 ```sh
-muse plugins remove tailrocks-open-source-skills@tailrocks
+muse plugins remove tailrocks-contribution-skills@tailrocks
 ```
 
 Add `--delete-data` to also remove the plugin data directory. The
@@ -324,17 +324,17 @@ The install facts are:
 For the project scope, run these shell commands:
 
 ```sh
-git clone https://github.com/tailrocks/tailrocks-open-source-skills
+git clone https://github.com/tailrocks/tailrocks-contribution-skills
 mkdir -p .opencode/skills
-cp -R tailrocks-open-source-skills/skills/. .opencode/skills/
+cp -R tailrocks-contribution-skills/skills/. .opencode/skills/
 ```
 
 For the user scope, run these shell commands:
 
 ```sh
-git clone https://github.com/tailrocks/tailrocks-open-source-skills
+git clone https://github.com/tailrocks/tailrocks-contribution-skills
 mkdir -p ~/.config/opencode/skills
-cp -R tailrocks-open-source-skills/skills/. ~/.config/opencode/skills/
+cp -R tailrocks-contribution-skills/skills/. ~/.config/opencode/skills/
 ```
 
 Inspect the install (shell). List the copied directories. Confirm
@@ -416,16 +416,16 @@ For the plugin route, clone the package first. Then install the
 local path:
 
 ```sh
-git clone https://github.com/tailrocks/tailrocks-open-source-skills
-agy plugin install ./tailrocks-open-source-skills
+git clone https://github.com/tailrocks/tailrocks-contribution-skills
+agy plugin install ./tailrocks-contribution-skills
 ```
 
 For the native skill route, run these shell commands:
 
 ```sh
-git clone https://github.com/tailrocks/tailrocks-open-source-skills
+git clone https://github.com/tailrocks/tailrocks-contribution-skills
 mkdir -p .agents/skills
-cp -R tailrocks-open-source-skills/skills/. .agents/skills/
+cp -R tailrocks-contribution-skills/skills/. .agents/skills/
 ```
 
 Inspect the install in the shell form:
@@ -455,13 +455,13 @@ loaded copy.
 Remove the plugin in the shell form:
 
 ```sh
-agy plugin uninstall tailrocks-open-source-skills
+agy plugin uninstall tailrocks-contribution-skills
 ```
 
 Use the session form:
 
 ```text
-/plugin uninstall tailrocks-open-source-skills
+/plugin uninstall tailrocks-contribution-skills
 ```
 
 Uninstall removes files and registry entries. For the native skill
@@ -501,7 +501,7 @@ Run these shell commands:
 
 ```sh
 grok plugin marketplace add tailrocks/tailrocks-skills
-grok plugin install tailrocks-open-source-skills --trust
+grok plugin install tailrocks-contribution-skills --trust
 ```
 
 The `--trust` flag is required. The `@marketplace` qualified form and the
@@ -529,7 +529,7 @@ installed build.
 Remove the plugin in the shell form:
 
 ```sh
-grok plugin uninstall tailrocks-open-source-skills
+grok plugin uninstall tailrocks-contribution-skills
 ```
 
 Removal file effects and name-collision behavior are unresolved.
@@ -567,7 +567,7 @@ auto-discovers the catalog, so the marketplace URL is required:
 
 ```text
 /plugins marketplace https://raw.githubusercontent.com/tailrocks/tailrocks-skills/c401bb7f8aeb77cc8d0cec0b99ce2ab2e0427f3e/.kimi-plugin/marketplace.json
-/plugins install https://github.com/tailrocks/tailrocks-open-source-skills/commit/3e51bc5c91949f361ed926d8f760bcb16edef111
+/plugins install https://github.com/tailrocks/tailrocks-contribution-skills/commit/3e51bc5c91949f361ed926d8f760bcb16edef111
 ```
 
 The commit pin is the recommended form. The pin above is the pre-rewrite
@@ -579,7 +579,7 @@ Inspect the install (session):
 
 ```text
 /plugins list
-/plugins info tailrocks-open-source-skills
+/plugins info tailrocks-contribution-skills
 ```
 
 Use this selection example in the session:
@@ -595,12 +595,12 @@ each change, run `/reload`.
 Remove the plugin in the session form:
 
 ```text
-/plugins remove tailrocks-open-source-skills
+/plugins remove tailrocks-contribution-skills
 ```
 
 Removal deletes the installation record. The managed copy stays
 on disk. Delete the
-`$KIMI_CODE_HOME/plugins/managed/tailrocks-open-source-skills/`
+`$KIMI_CODE_HOME/plugins/managed/tailrocks-contribution-skills/`
 directory to clear it fully. The CLI always runs from that managed copy. After upstream
 changes, reinstall.
 
@@ -624,7 +624,7 @@ only with an explicit `/skill:` command. Audit enabled plugins: a
 
 ## Migrate from the old catalog
 
-Older installs used the self-hosted `tailrocks-open-source-skills`
+Older installs used the self-hosted `tailrocks-contribution-skills`
 marketplace, which this restructure removed. Move each install to
 the central `tailrocks` marketplace in this order:
 
@@ -638,10 +638,10 @@ The order prevents duplicates.
 For Claude Code, run these shell commands:
 
 ```sh
-claude plugin uninstall tailrocks-open-source-skills --scope user
-claude plugin marketplace remove tailrocks-open-source-skills
+claude plugin uninstall tailrocks-contribution-skills --scope user
+claude plugin marketplace remove tailrocks-contribution-skills
 claude plugin marketplace add tailrocks/tailrocks-skills
-claude plugin install tailrocks-open-source-skills@tailrocks --scope user
+claude plugin install tailrocks-contribution-skills@tailrocks --scope user
 ```
 
 Marketplace removal uninstalls installed plugins. Removal also
@@ -652,36 +652,36 @@ record clean. When used, repeat the uninstall for `project` and
 For Codex, run these shell commands:
 
 ```sh
-codex plugin remove tailrocks-open-source-skills@tailrocks-open-source-skills
-codex plugin marketplace remove tailrocks-open-source-skills
+codex plugin remove tailrocks-contribution-skills@tailrocks-contribution-skills
+codex plugin marketplace remove tailrocks-contribution-skills
 codex plugin marketplace add tailrocks/tailrocks-skills
-codex plugin add tailrocks-open-source-skills@tailrocks
+codex plugin add tailrocks-contribution-skills@tailrocks
 ```
 
 For Muse, run these shell commands:
 
 ```sh
-muse plugins remove tailrocks-open-source-skills@tailrocks-open-source-skills
-muse plugins marketplace remove tailrocks-open-source-skills
+muse plugins remove tailrocks-contribution-skills@tailrocks-contribution-skills
+muse plugins marketplace remove tailrocks-contribution-skills
 muse plugins marketplace add tailrocks tailrocks/tailrocks-skills
-muse plugins install tailrocks-open-source-skills@tailrocks
+muse plugins install tailrocks-contribution-skills@tailrocks
 ```
 
 For Grok, run these shell commands:
 
 ```sh
-grok plugin uninstall tailrocks-open-source-skills
-grok plugin marketplace remove tailrocks-open-source-skills
+grok plugin uninstall tailrocks-contribution-skills
+grok plugin marketplace remove tailrocks-contribution-skills
 grok plugin marketplace add tailrocks/tailrocks-skills
-grok plugin install tailrocks-open-source-skills --trust
+grok plugin install tailrocks-contribution-skills --trust
 ```
 
 For Kimi, run these session commands:
 
 ```text
-/plugins remove tailrocks-open-source-skills
+/plugins remove tailrocks-contribution-skills
 /plugins marketplace https://raw.githubusercontent.com/tailrocks/tailrocks-skills/c401bb7f8aeb77cc8d0cec0b99ce2ab2e0427f3e/.kimi-plugin/marketplace.json
-/plugins install https://github.com/tailrocks/tailrocks-open-source-skills/commit/3e51bc5c91949f361ed926d8f760bcb16edef111
+/plugins install https://github.com/tailrocks/tailrocks-contribution-skills/commit/3e51bc5c91949f361ed926d8f760bcb16edef111
 ```
 
 Then run `/reload`. When needed, delete the stale managed copy.
@@ -691,5 +691,5 @@ directories. Run the `reload_skills` tool.
 
 For OpenCode and Antigravity native routes, delete the old copied
 directories. Copy the new ones. For the Antigravity plugin route,
-run `agy plugin uninstall tailrocks-open-source-skills`. Install
+run `agy plugin uninstall tailrocks-contribution-skills`. Install
 the new local path.

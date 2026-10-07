@@ -10,7 +10,7 @@ the exact install of each client. The recon skill shows the shape on
 each client:
 
 ```text
-/tailrocks-open-source-skills:tailrocks-contribute-recon OWNER/REPO
+/tailrocks-contribution-skills:tailrocks-contribute-recon OWNER/REPO
 $tailrocks-contribute-recon OWNER/REPO
 /skill:tailrocks-contribute-recon OWNER/REPO
 /tailrocks-contribute-recon OWNER/REPO
@@ -43,7 +43,7 @@ Read the skill body for the full procedure. Each body lives at
 Invoke the recon owner with the project identity:
 
 ```text
-/tailrocks-open-source-skills:tailrocks-contribute-recon OWNER/REPO
+/tailrocks-contribution-skills:tailrocks-contribute-recon OWNER/REPO
 ```
 
 The skill returns a handoff with the contribution contract,

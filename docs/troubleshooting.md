@@ -21,7 +21,7 @@ collision. Keep one copy. Always use the qualified id. Use the
 client rule:
 
 - On Claude, Codex, and Muse, install through
-  `tailrocks-open-source-skills@tailrocks`. Select through the same
+  `tailrocks-contribution-skills@tailrocks`. Select through the same
   id.
 - On Amp, a local copy beats a repository copy. A personal copy
   beats a workspace copy. Before use, inspect the source.

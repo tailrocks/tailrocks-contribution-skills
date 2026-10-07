@@ -1,4 +1,4 @@
-# tailrocks-open-source-skills
+# tailrocks-contribution-skills
 
 One portable package with five skills. The skills run the
 contribution lifecycle for external projects: reconnaissance,
@@ -21,7 +21,7 @@ Each skill body lives in its own directory. Read
 ## Install
 
 Install the package from the central `tailrocks` marketplace. Use
-the qualified id `tailrocks-open-source-skills@tailrocks` wherever
+the qualified id `tailrocks-contribution-skills@tailrocks` wherever
 the client accepts it. Each row links its full section in
 `docs/installation.md`.
 
@@ -40,7 +40,7 @@ Quick start on Claude Code (shell):
 
 ```sh
 claude plugin marketplace add tailrocks/tailrocks-skills
-claude plugin install tailrocks-open-source-skills@tailrocks --scope user
+claude plugin install tailrocks-contribution-skills@tailrocks --scope user
 ```
 
 All contribution workflows need Git and `gh`. Fork and pull-request
@@ -53,7 +53,7 @@ Select the owner for the requested work. To examine one project on
 Claude Code (session):
 
 ```text
-/tailrocks-open-source-skills:tailrocks-contribute-recon OWNER/REPO
+/tailrocks-contribution-skills:tailrocks-contribute-recon OWNER/REPO
 ```
 
 The skill returns a handoff with the contribution contract,
@@ -78,16 +78,16 @@ Refresh the marketplace. Then refresh the plugin. When the plugin is no longer
 needed, remove it. Commands per agent:
 
 - Claude Code: run `claude plugin update
-  tailrocks-open-source-skills@tailrocks` or `claude plugin
+  tailrocks-contribution-skills@tailrocks` or `claude plugin
   marketplace update tailrocks`. For removal, run `claude plugin
-  uninstall tailrocks-open-source-skills`.
+  uninstall tailrocks-contribution-skills`.
 - Codex: run `codex plugin marketplace upgrade tailrocks`. For removal, run
-  `codex plugin remove tailrocks-open-source-skills@tailrocks`.
+  `codex plugin remove tailrocks-contribution-skills@tailrocks`.
 - Muse: run `muse plugins marketplace update tailrocks`. Then run
   the remove-and-install sequence. For removal, run `muse plugins
-  remove tailrocks-open-source-skills@tailrocks`.
+  remove tailrocks-contribution-skills@tailrocks`.
 - Kimi session: no `update` subcommand exists. For removal, run `/plugins
-  remove tailrocks-open-source-skills`. Then run `/reload`.
+  remove tailrocks-contribution-skills`. Then run `/reload`.
 - Amp, OpenCode, Antigravity, Grok: see
   `docs/installation.md` for the exact steps.
 

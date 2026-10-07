@@ -1,5 +1,5 @@
 {
-  "name": "tailrocks-open-source-skills",
+  "name": "tailrocks-contribution-skills",
   "version": "0.28.0",
   "description": "Contribution procedures for external projects, from reconnaissance and proposal through preparation, submission, and review response.",
   "skills": "./skills/",
@@ -7,6 +7,6 @@
     "displayName": "Open Source Skills",
     "shortDescription": "Contribution procedures for external open-source projects.",
     "developerName": "tailrocks",
-    "websiteURL": "https://github.com/tailrocks/tailrocks-open-source-skills"
+    "websiteURL": "https://github.com/tailrocks/tailrocks-contribution-skills"
   }
 }
