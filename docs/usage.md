@@ -82,7 +82,8 @@ Local handoff state lives under `contrib/<owner>-<repo>/`. Never
 place it inside the target diff. Never commit it. Never publish it.
 One contribution remains in flight per project.
 
-Read-only inspection uses native `gh` only:
+Read-only inspection uses native `gh` only. Authenticate with `gh
+auth login` first:
 
 ```sh
 gh api repos/OWNER/REPO --method GET

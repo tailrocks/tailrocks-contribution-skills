@@ -12,11 +12,10 @@ session. This guide recorded all commands on 2026-10-07.
 
 ## Runtime requirements
 
-All contribution workflows need Git and `gh`. Fork and pull-request
-creation, submission, and review responses need an authenticated `gh`
-session with access to the fork and the target project. Only
-GitHub.com is supported. GitHub Enterprise is unsupported. Read-only
-reconnaissance can run without authentication.
+All contribution workflows need Git and `gh`. All workflows including
+read-only reconnaissance need an authenticated `gh` session with access
+to the fork and the target project. Only GitHub.com is supported.
+GitHub Enterprise is unsupported.
 
 Before install, examine the package. Read `plugin.json`, the host manifests,
 and the five files under `skills/`. This package holds skills and references
@@ -572,7 +571,7 @@ auto-discovers the catalog, so the marketplace URL is required:
 
 The commit pin is the recommended form. The pin above is the pre-rewrite
 package revision (version 0.28.0). After the rewrite release, update the pin
-to the release revision as `maintenance.md` describes. Apply every install,
+to the release revision. Apply every install,
 enable, disable, or remove through `/reload` or a new session.
 
 Inspect the install (session):
