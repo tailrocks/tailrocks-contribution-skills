@@ -1,22 +1,5 @@
 {
   "name": "tailrocks-open-source-skills",
-  "description": "Controlled open-source contribution workflows from repository reconnaissance through proposal, preparation, submission, and review response.",
   "version": "0.28.0",
-  "author": {
-    "name": "tailrocks",
-    "url": "https://github.com/tailrocks"
-  },
-  "homepage": "https://github.com/tailrocks/tailrocks-open-source-skills",
-  "repository": "https://github.com/tailrocks/tailrocks-open-source-skills",
-  "license": "Apache-2.0",
-  "keywords": [
-    "open-source",
-    "contributions",
-    "reconnaissance",
-    "proposal",
-    "fork",
-    "pull-request",
-    "maintainers",
-    "review-response"
-  ]
+  "description": "Contribution procedures for external projects, from reconnaissance and proposal through preparation, submission, and review response."
 }

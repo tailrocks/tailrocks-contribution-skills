@@ -1,7 +1,15 @@
 {
-  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tailrocks-open-source-skills",
-  "description": "Controlled open-source contribution workflows from repository reconnaissance through proposal, preparation, submission, and review response.",
+  "version": "0.28.0",
+  "description": "Contribution procedures for external projects, from reconnaissance and proposal through preparation, submission, and review response.",
+  "author": {
+    "name": "tailrocks",
+    "url": "https://github.com/tailrocks"
+  },
+  "homepage": "https://github.com/tailrocks/tailrocks-open-source-skills",
+  "repository": "https://github.com/tailrocks/tailrocks-open-source-skills",
+  "license": "Apache-2.0",
   "keywords": [
     "open-source",
     "contributions",
@@ -11,7 +19,5 @@
     "pull-request",
     "maintainers",
     "review-response"
-  ],
-  "homepage": "https://github.com/tailrocks/tailrocks-open-source-skills",
-  "repository": "https://github.com/tailrocks/tailrocks-open-source-skills"
+  ]
 }
