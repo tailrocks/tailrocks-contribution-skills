@@ -9,11 +9,11 @@ skills are user-only and need an explicit human command.
 
 | Skill | Task |
 | --- | --- |
-| `tailrocks-contribute-recon` | Examine one project. User-only. |
-| `tailrocks-contribute-propose` | Draft one venue proposal. User-only. |
-| `tailrocks-contribute-prepare` | Implement one proposal. User-only. |
-| `tailrocks-contribute-submit` | Publish one contribution. User-only. |
-| `tailrocks-contribute-respond` | Answer one review round. User-only. |
+| [`tailrocks-contribute-recon`](skills/tailrocks-contribute-recon/SKILL.md) | Examine one project. User-only. |
+| [`tailrocks-contribute-propose`](skills/tailrocks-contribute-propose/SKILL.md) | Draft one venue proposal. User-only. |
+| [`tailrocks-contribute-prepare`](skills/tailrocks-contribute-prepare/SKILL.md) | Implement one proposal. User-only. |
+| [`tailrocks-contribute-submit`](skills/tailrocks-contribute-submit/SKILL.md) | Publish one contribution. User-only. |
+| [`tailrocks-contribute-respond`](skills/tailrocks-contribute-respond/SKILL.md) | Answer one review round. User-only. |
 
 Each skill body lives in its own directory. Read
 `skills/tailrocks-contribute-recon/SKILL.md` for one complete example.

@@ -46,10 +46,10 @@ Collect these inputs:
 - Policy, checks, disclosure, and commit regime.
 - Explicit authorization for push or signing, when the user gives it.
 
-Read every reference in `References` before the procedure. The
-invocation authorizes local implementation and local commits. It
-authorizes no push, no signing, and no upstream mutation. Push or
-signing needs explicit user authorization for that act.
+The invocation authorizes local implementation and local
+commits. It authorizes no push, no signing, and no upstream
+mutation. Push or signing needs explicit user authorization
+for that act.
 
 ## Procedure
 
@@ -118,10 +118,10 @@ Confirm every row:
 Use these references:
 
 - [`runtime-trust.md`](references/runtime-trust.md): untrusted
-  content, secrets, and authorization limits. Read it for every task.
-- [`contribution-handoff.md`](references/contribution-handoff.md):
-  handoff location, state files, and integrity rules. Read it for
-  every task.
-- [`preparation-gate.md`](references/preparation-gate.md): acceptance
-  rows for the prepared outcome. Read it for every task, before
+  content, secrets, and authorization limits. Read it before
   step 2.
+- [`contribution-handoff.md`](references/contribution-handoff.md):
+  handoff location, state files, and integrity rules. Read it
+  before step 7.
+- [`preparation-gate.md`](references/preparation-gate.md): acceptance
+  rows for the prepared outcome. Read it before step 2.

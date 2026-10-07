@@ -44,9 +44,8 @@ Collect these inputs:
 - Revision regime and pacing window.
 - Credential scope.
 
-Read every reference in `References` before the procedure. The
-invocation authorizes review and check reads. Each remote mutation
-needs explicit user authorization for that act.
+The invocation authorizes review and check reads. Each remote
+mutation needs explicit user authorization for that act.
 
 ## Procedure
 
@@ -109,9 +108,10 @@ Confirm every row:
 Use these references:
 
 - [`runtime-trust.md`](references/runtime-trust.md): untrusted
-  content, secrets, and authorization limits. Read it for every task.
+  content, secrets, and authorization limits. Read it before
+  step 2.
 - [`contribution-handoff.md`](references/contribution-handoff.md):
-  handoff location, state files, and integrity rules. Read it for
-  every task.
+  handoff location, state files, and integrity rules. Read it
+  before step 7.
 - [`review-response.md`](references/review-response.md): revision
-  regime and review conduct. Read it for every task, before step 3.
+  regime and review conduct. Read it before step 3.

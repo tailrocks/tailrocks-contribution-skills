@@ -46,9 +46,8 @@ Collect these inputs:
   pacing.
 - Exact proposed outcome.
 
-Read every reference in `References` before the procedure. The
-invocation authorizes local draft work only. It authorizes no network
-access and no outward action.
+The invocation authorizes local draft work only. It authorizes
+no network access and no outward action.
 
 ## Procedure
 
@@ -102,10 +101,10 @@ Confirm every row:
 Use these references:
 
 - [`runtime-trust.md`](references/runtime-trust.md): untrusted
-  content, secrets, and authorization limits. Read it for every task.
+  content, secrets, and authorization limits. Read it before
+  step 1.
 - [`contribution-handoff.md`](references/contribution-handoff.md):
-  handoff location, state files, and integrity rules. Read it for
-  every task.
+  handoff location, state files, and integrity rules. Read it
+  before step 6.
 - [`etiquette-and-hard-stops.md`](references/etiquette-and-hard-stops.md):
-  venue etiquette and stop rows. Read it for every task, before
-  step 3.
+  venue etiquette and stop rows. Read it before step 3.

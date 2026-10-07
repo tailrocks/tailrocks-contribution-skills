@@ -18,8 +18,9 @@ $tailrocks-contribute-recon OWNER/REPO
 
 The first form fits Claude Code. The second form fits Codex. The
 third form fits Kimi Code. The fourth form fits Muse, Antigravity,
-Grok, and OpenCode pickers. Amp has no slash invoke: ask the thread
-for the exact qualified skill by name.
+and Grok pickers. For OpenCode, request the skill by name in the
+prompt (see `installation.md`). Amp has no slash invoke: ask the
+thread for the exact qualified skill by name.
 
 All five skills need an explicit human command on every client. A
 model must not select a contribution skill from task similarity.

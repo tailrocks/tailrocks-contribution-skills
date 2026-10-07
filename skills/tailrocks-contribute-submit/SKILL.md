@@ -46,8 +46,7 @@ Collect these inputs:
 - Credential identity and scope.
 - Pacing state.
 
-Read every reference in `References` before the procedure. The
-invocation authorizes remote identity and check reads for
+The invocation authorizes remote identity and check reads for
 revalidation.
 
 ## Procedure
@@ -119,10 +118,10 @@ Confirm every row:
 Use these references:
 
 - [`runtime-trust.md`](references/runtime-trust.md): untrusted
-  content, secrets, and authorization limits. Read it for every task.
+  content, secrets, and authorization limits. Read it before
+  step 2.
 - [`contribution-handoff.md`](references/contribution-handoff.md):
-  handoff location, state files, and integrity rules. Read it for
-  every task.
+  handoff location, state files, and integrity rules. Read it
+  before step 7.
 - [`submission-protocol.md`](references/submission-protocol.md):
-  revalidation and publication order. Read it for every task, before
-  step 1.
+  revalidation and publication order. Read it before step 1.

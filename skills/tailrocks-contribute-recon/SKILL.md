@@ -45,9 +45,8 @@ Collect these inputs:
 - Current date and time.
 - Supplied local clone, when the user gives one.
 
-Read every reference in `References` before the procedure. The
-invocation authorizes bounded public reads for this examination. It
-authorizes no mutation of the target or the fork.
+The invocation authorizes bounded public reads for this
+examination. It authorizes no mutation of the target or the fork.
 
 ## Procedure
 
@@ -109,10 +108,10 @@ Confirm every row:
 Use these references:
 
 - [`runtime-trust.md`](references/runtime-trust.md): untrusted
-  content, secrets, and authorization limits. Read it for every task.
+  content, secrets, and authorization limits. Read it before
+  step 3.
 - [`contribution-handoff.md`](references/contribution-handoff.md):
-  handoff location, state files, and integrity rules. Read it for
-  every task.
+  handoff location, state files, and integrity rules. Read it
+  before step 6.
 - [`project-contract.md`](references/project-contract.md): policy
-  discovery and classification rows. Read it for every task, before
-  step 4.
+  discovery and classification rows. Read it before step 4.
