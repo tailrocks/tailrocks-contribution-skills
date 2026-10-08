@@ -1,7 +1,10 @@
 ---
 name: tailrocks-contribute-propose
 description: >-
-  Use only when the user explicitly requests this skill. Turn one current contribution recon into a locally stored venue proposal or hard-stop redirect. Never edits the fork, contacts maintainers, claims work, posts, or treats a draft as approval.
+  Turn one current contribution reconnaissance into a locally stored
+  venue proposal or a hard-stop redirect. Use only on an explicit
+  user request. This skill uses no network access. It never edits
+  the fork, contacts maintainers, claims work, or posts.
 argument-hint: "<contrib handoff and proposed change>"
 disable-model-invocation: true
 license: Apache-2.0
@@ -10,56 +13,98 @@ user-invocable: true
 
 # Contribute Propose
 
-Choose the least-burdensome allowed venue for one evidenced contribution and
-write a draft only. This owner performs no network access; stale recon routes
-back to `tailrocks-contribute-recon` without invoking it.
+Choose the least-burdensome allowed venue for one evidenced
+contribution and draft the proposal. Store the draft locally only.
+This skill performs no network access. If reconnaissance is stale,
+stop and ask the user to refresh reconnaissance first.
 
-Apply [`runtime-trust.md`](references/runtime-trust.md),
-[`contribution-handoff.md`](references/contribution-handoff.md), and
-[`etiquette-and-hard-stops.md`](references/etiquette-and-hard-stops.md).
-Resolve every relative link in this file against the directory containing this SKILL.md, never the plugin skills root.
+Resolve every relative link in this file against the directory that
+holds this `SKILL.md` file. Never resolve links against the plugin
+`skills` root.
 
-## Propose
+## Use this skill
 
-1. Bind canonical handoff root, target/recon hashes, checked revision/time,
-   issue/claim evidence, assistance policy, security/governance channel, pacing,
-   and exact proposed outcome. Reject stale, contradictory, symlinked, escaping,
-   incomplete, security-shaped, or already-in-flight input.
-2. Prove the claim is real and scoped: reproduce from local/current evidence,
-   distinguish a defect from preference, recover prior attempts and ownership,
-   and state what maintainer burden the proposal avoids. Unverified claims stop.
-3. Apply every hard stop. A stop writes the named redirect/blocked result plus
-   concrete unclaimed or non-code alternatives; it never creates pressure,
-   circumvents policy, competes with assigned work, or opens a public security
-   path.
-4. Select exactly one allowed venue—issue, discussion, governance proposal, or
-   direct change—and explain why. When policy requires prior agreement, draft
-   that request; never claim work or reserve an issue.
-5. Draft `proposal.md` with target identity, claim/evidence, bounded scope,
-   alternatives, disclosure text, venue fields, requested maintainer decision,
-   and `DRAFT_NOT_APPROVED`. The user's voice and legal attestations are never
-   fabricated.
-6. Publish only proposal/hard-stop and log bytes by per-file CAS after rechecking
-   predecessor hashes. Preserve concurrent replacements and expose partial
-   mutation/recovery artifacts.
+Use this skill when the user names it explicitly and gives one
+current reconnaissance handoff plus a proposed change. Use this skill
+after reconnaissance and before preparation. The proposal draft is
+the only output.
 
-## Machine transition
+Do not use this skill to examine a project. Project examination belongs to the
+recon skill. Do not use this skill to edit files in a fork. Fork edits belong
+to the prepare skill. Do not use this skill to contact maintainers or to post.
+Drafts never leave the local handoff.
 
-Obtain the loader-provided absolute path of this installed `SKILL.md`; ignore
-ambient path variables and target-repository lookalikes. Run its sibling
-`scripts/contribute-propose.ts --skill-file <that-absolute-SKILL.md>` with exactly one bounded
-`tailrocks.contribution-stage-input/v1` JSON object on stdin. The helper proves
-the canonical clean Git identity and exact changed-path set, rejects every
-approval, external action, and remote receipt, binds the immutable contribution
-plus exact recon predecessors, and publishes exactly `proposal.md` and
-append-only `log.md` bytes by CAS. Only its
-`tailrocks.contribution-stage/v1` success receipt permits `PROPOSED` or the
-recorded hard-stop result; refusal or recovery state is terminal.
+## Before you start
 
-## Output and final gate
+Collect these inputs:
 
-Return exactly one `PROPOSED`, `REDIRECTED`, `BLOCKED`, or `REFUSED` receipt with exact
-inputs, written paths, rejected alternatives, CAS receipts, partial state, and
-recovery. Any partial local publication is `BLOCKED` with surviving paths. No
-fork edit, branch, commit, network, claim, issue, discussion,
-message, signature, push, PR, or other outward action; the draft grants none.
+- Canonical handoff root.
+- Target and reconnaissance identities and hashes.
+- Checked revision and time.
+- Issue and claim evidence.
+- Assistance policy, security channel, governance channel, and
+  pacing.
+- Exact proposed outcome.
+
+The invocation authorizes local draft work only. It authorizes
+no network access and no outward action.
+
+## Procedure
+
+1. Record the handoff root, target and reconnaissance hashes, checked
+   revision and time, and issue and claim evidence. Record assistance
+   policy, security and governance channels, pacing, and the exact
+   proposed outcome. If any input is stale, contradictory, incomplete, or
+   security-shaped, stop and report the defect. If any path holds a
+   symlink or escapes the root, stop and report the defect.
+2. Prove the claim from local and current evidence. Reproduce the
+   defect or confirm the need. Distinguish a defect from a preference.
+   Recover prior attempts and ownership. State the maintainer burden
+   that the proposal avoids. Stop on an unverified claim.
+3. Apply every hard stop. On a stop, write the named redirect or blocked
+   result with concrete unclaimed or non-code alternatives. Never pressure
+   maintainers. Never break policy. Avoid assigned work. Never open a public
+   security path.
+4. Select exactly one allowed venue: issue, discussion, governance
+   proposal, or direct change. Explain why this venue fits. When
+   policy requires prior agreement, draft that request. Never claim
+   work. Never reserve an issue.
+5. Draft `proposal.md` with target identity, claim and evidence,
+   bounded scope, and alternatives. Add disclosure text, venue fields,
+   the requested maintainer decision, and the `DRAFT_NOT_APPROVED`
+   mark. Never write words for the user. Never write a legal attestation.
+6. Write the proposal or hard-stop result plus the `log.md` entry.
+   Before publication, verify predecessor hashes. Preserve concurrent
+   replacements. Expose partial mutations and recovery details.
+
+## Result
+
+Return one outcome: proposed, redirected, blocked, or refused. Name
+exact inputs, written paths, rejected alternatives, partial state,
+and recovery. A partial local publication is blocked. Perform no fork
+edit, branch, commit, network access, claim, issue, discussion,
+message, signature, push, pull request, or other outward action. The
+draft grants none.
+
+## Completion checks
+
+Confirm every row:
+
+- The handoff holds current `proposal.md` and `log.md` entries.
+- The proposal names one venue. It shows the draft mark.
+- Hard stops name evidence and concrete alternatives.
+- No fork file changed and no network access occurred.
+- No claim, issue, discussion, message, or post exists.
+
+## References
+
+Use these references:
+
+- [`runtime-trust.md`](references/runtime-trust.md): untrusted
+  content, secrets, and authorization limits. Read it before
+  step 1.
+- [`contribution-handoff.md`](references/contribution-handoff.md):
+  handoff location, state files, and integrity rules. Read it
+  before step 6.
+- [`etiquette-and-hard-stops.md`](references/etiquette-and-hard-stops.md):
+  venue etiquette and stop rows. Read it before step 3.
