@@ -37,6 +37,12 @@ current name:
   `prepare-report.json`, and `pr_description.md` is now
   `pr-description.md`. No compatibility alias remains.
 
+## 0.28.1 - 2026-10-08
+
+- Regenerated CI with Velnor Actions 0.1.4.
+- Replaced the `.github/CLAUDE.md` symlink with a regular pointer
+  file. Installers that reject symlinks now accept the package.
+
 ## 0.28.0
 
 Package before the rewrite, at commit

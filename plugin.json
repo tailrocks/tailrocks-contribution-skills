@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tailrocks-contribution-skills",
-  "version": "0.28.0",
+  "version": "0.28.1",
   "description": "Contribution procedures for external projects, from reconnaissance and proposal through preparation, submission, and review response.",
   "author": {
     "name": "tailrocks",
