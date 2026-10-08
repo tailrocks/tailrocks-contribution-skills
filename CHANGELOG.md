@@ -1,13 +1,13 @@
 # Changelog
 
-## Unreleased
+## 0.28.1 - 2026-10-08
 
 Rewrote the package on branch `standardize/package-rewrite` under the
 current name:
 
 - Rewrote `plugin.json` as the portable Agent Plugins 1.0.0 manifest.
   It is now the source of truth for name, version, and description.
-  Version stays `0.28.0`.
+  Version is now `0.28.1`.
 - Trimmed `.claude-plugin/plugin.json` to name, version, and
   description.
 - Rewrote `.kimi-plugin/plugin.json` with `skills` set to `./skills/`
@@ -36,6 +36,9 @@ current name:
 - Renamed handoff files: `prepare-receipt.json` is now
   `prepare-report.json`, and `pr_description.md` is now
   `pr-description.md`. No compatibility alias remains.
+- Regenerated CI with Velnor Actions 0.1.4.
+- Replaced the `.github/CLAUDE.md` symlink with a regular pointer
+  file. Installers that reject symlinks now accept the package.
 
 ## 0.28.0
 
