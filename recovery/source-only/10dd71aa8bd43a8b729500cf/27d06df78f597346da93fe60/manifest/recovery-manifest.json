@@ -1,0 +1,1359 @@
+{
+  "archive_directory_path_map": [
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs/heads",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/heads"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs/heads/codex",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/heads/codex"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs/remotes",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/remotes"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs/remotes/origin",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/remotes/origin"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs/remotes/origin/codex",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/remotes/origin/codex"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/98",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/98"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/a0",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/a0"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/e0",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/e0"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/e7",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/e7"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/eb",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/eb"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs/heads",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/heads"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs/heads/codex",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/heads/codex"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs/remotes",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/remotes"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs/remotes/origin",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/remotes/origin"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs/remotes/origin/codex",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/remotes/origin/codex"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/worktree/.github",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".github"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/worktree/.github.velnor-stage",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".github.velnor-stage"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/worktree/.github.velnor-stage/spare",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".github.velnor-stage/spare"
+    },
+    {
+      "archive_directory": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/worktree/.velnor",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".velnor"
+    }
+  ],
+  "archive_file_path_map": [
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/COMMIT_EDITMSG",
+      "blob_oid": "05fbcd3d532f9f4fd972d3495533f411b4d1c298",
+      "git_mode": "100644",
+      "sha256": "157b8c0320a72eb8d1bcdd825d65cae3a93a3035c63c3b3fcd3fcb4ec1571ac6",
+      "size": 84,
+      "source_mode": 384,
+      "source_path": ".git/COMMIT_EDITMSG"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/index",
+      "blob_oid": "a284fa8fab991497e67cd7b5f71216ab4822680c",
+      "git_mode": "100644",
+      "sha256": "9f1ed081c212ae80fa7aca27c627f51f95289eabcb124690547d395b3923d301",
+      "size": 6687,
+      "source_mode": 384,
+      "source_path": ".git/index"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/HEAD",
+      "blob_oid": "63e135288693cfa45968068b332f36b3b64f1480",
+      "git_mode": "100644",
+      "sha256": "91a4a3f716bddf5e8ef21e42d4b7f77cea761d2bb66d83c1a16e9a006f6357b8",
+      "size": 2079,
+      "source_mode": 384,
+      "source_path": ".git/logs/HEAD"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs/heads/codex/chatgpt-web-consumer-validators",
+      "blob_oid": "84e963f8c0a7e75635100847180e54fa89bdc0fe",
+      "git_mode": "100644",
+      "sha256": "d44731f9d970c83500603b4bef6716da8d58d3a4eb73547d8351be041baee62b",
+      "size": 780,
+      "source_mode": 384,
+      "source_path": ".git/logs/refs/heads/codex/chatgpt-web-consumer-validators"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/logs/refs/remotes/origin/codex/chatgpt-web-consumer-validators",
+      "blob_oid": "87aabddc84b89c3898055c61aa086dfccefff7af",
+      "git_mode": "100644",
+      "sha256": "e3a0af22db4fc85d9e57c474b1848c060af778b1ca6e5ee5f7c7b33fe15a5f2b",
+      "size": 450,
+      "source_mode": 384,
+      "source_path": ".git/logs/refs/remotes/origin/codex/chatgpt-web-consumer-validators"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/98/cdbe2beed81fa832112cd0e56ebd2fd172d556",
+      "blob_oid": "c14e582db40b535eed952b085e6d974152e92762",
+      "git_mode": "100644",
+      "sha256": "402aa47d38ca3235e95df32430f21b0838d72eb9ced96c32a255296265badf08",
+      "size": 51,
+      "source_mode": 256,
+      "source_path": ".git/objects/98/cdbe2beed81fa832112cd0e56ebd2fd172d556"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/e0/a54ffde537414825aac71f362d5d804c802a62",
+      "blob_oid": "a4458fb35f93fff59240b9db4d38159e1f5a6c19",
+      "git_mode": "100644",
+      "sha256": "51251f0ffc300123d9272e8eb08f96c350ef020856ae185ddbf41664ad495639",
+      "size": 55,
+      "source_mode": 256,
+      "source_path": ".git/objects/e0/a54ffde537414825aac71f362d5d804c802a62"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/e7/6be1abb79374fb06ee928e48675c372c4eb1cb",
+      "blob_oid": "1508ce69d69b760024da208425b45e4a4b408e0a",
+      "git_mode": "100644",
+      "sha256": "6fba28150b9466544d4d186d04eb8b69560e61078a89a292e3d5ab7cf1f14918",
+      "size": 55,
+      "source_mode": 256,
+      "source_path": ".git/objects/e7/6be1abb79374fb06ee928e48675c372c4eb1cb"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/objects/eb/4b4c3ca438a0137dc161a3296193ed43367679",
+      "blob_oid": "41d4cff7d884d9fc744790dd211f1c45a947a106",
+      "git_mode": "100644",
+      "sha256": "c00bc884b7323f3962d85e89a500dc06837739a3823500a2d0f2bcd373355b9c",
+      "size": 159,
+      "source_mode": 256,
+      "source_path": ".git/objects/eb/4b4c3ca438a0137dc161a3296193ed43367679"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs/heads/codex/chatgpt-web-consumer-validators",
+      "blob_oid": "17a2090dec54fe9597b40e6cbc93afd8a86f13eb",
+      "git_mode": "100644",
+      "sha256": "a4b229cba4bb00e6978e716cb21ddc3bd2c852eb3dce6f86d2b0cc8987e7b324",
+      "size": 41,
+      "source_mode": 384,
+      "source_path": ".git/refs/heads/codex/chatgpt-web-consumer-validators"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin/refs/remotes/origin/codex/chatgpt-web-consumer-validators",
+      "blob_oid": "17a2090dec54fe9597b40e6cbc93afd8a86f13eb",
+      "git_mode": "100644",
+      "sha256": "a4b229cba4bb00e6978e716cb21ddc3bd2c852eb3dce6f86d2b0cc8987e7b324",
+      "size": 41,
+      "source_mode": 384,
+      "source_path": ".git/refs/remotes/origin/codex/chatgpt-web-consumer-validators"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/worktree/.velnor/config.toml",
+      "blob_oid": "0e545606e179c8dc29b959c38e9f883d69a59ea3",
+      "git_mode": "100644",
+      "sha256": "01d2b1b374114c31bccd851bf432b0cfe95cfd921152db0843c26a0f09a104f3",
+      "size": 653,
+      "source_mode": 384,
+      "source_path": ".velnor/config.toml"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/worktree/.velnor/release-manifest.json",
+      "blob_oid": "7341cc988702a00c9abce76d0a3ddd3777502f81",
+      "git_mode": "100644",
+      "sha256": "eeecd05bd116504734e97b071a8f666e705c881184a1ff7f56012e4e8e81f39b",
+      "size": 953,
+      "source_mode": 384,
+      "source_path": ".velnor/release-manifest.json"
+    },
+    {
+      "archive_path": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/manifest/snapshot-manifest.json",
+      "blob_oid": "bbab64a5616f4c3d002259f0665cb1c53466fb9f",
+      "git_mode": "100644",
+      "sha256": "7e9c78bc60c7a959fe8be8bd80c9d1142c20f66e1e7ac195134c3e3b3fcd1958",
+      "size": 21831,
+      "source_mode": 420,
+      "source_path": "/Users/donbeave/.local/state/github-repatriation/operations/user-request-20261013T2201Z/supplemental-icloud-28/reappeared-two-source-only-v1/snapshots/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/source-snapshot-manifest.json"
+    }
+  ],
+  "archive_files_exclude_dotgit_path_component": true,
+  "frozen_source_scope_sha256": "ac432cfdca171bfc5f7b14ca4f7e387facd20844a6fadfc0bab80e718bc09600",
+  "group_id": "10dd71aa8bd43a8b729500cf",
+  "incarnation_source_id": "27d06df78f597346da93fe60",
+  "index_exactly_matches_remote_pull8_tree": true,
+  "missing_tracked_worktree_paths": [
+    {
+      "blob_oid": "da881f0d97a11ab3ae324de12db8fc9420e767ff",
+      "mode": "100644",
+      "path": ".alint.yml",
+      "remote_refs_reachable": true,
+      "sha256": "a708e340a4cf23ac28fb162c03a2d258321496515efc6acdd057f621ae2310fe",
+      "size": 795
+    },
+    {
+      "blob_oid": "68d402d03c175d3be5c23a2cb883920c04b22d54",
+      "mode": "100644",
+      "path": ".claude-plugin/plugin.json",
+      "remote_refs_reachable": true,
+      "sha256": "9f0492ac32e06c16d0398f3b8e56dfc9be86d78987f0d429d20a160c0cb5264e",
+      "size": 223
+    },
+    {
+      "blob_oid": "a08dd8edd604063e2a8762bf5c74029aaa9d1351",
+      "mode": "100644",
+      "path": ".github/AGENTS.md",
+      "remote_refs_reachable": true,
+      "sha256": "e7cfdf22075e1ed5d755c0dc6d7e3ee032283cef6097945edf97da01f92b489b",
+      "size": 2739
+    },
+    {
+      "blob_oid": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "mode": "100644",
+      "path": ".github/CLAUDE.md",
+      "remote_refs_reachable": true,
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "size": 11
+    },
+    {
+      "blob_oid": "16fd09c4f0051f3a0aaf8a423f79f42930bb6e88",
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "remote_refs_reachable": true,
+      "sha256": "44a7c92b6d1b8432993bdd48783f185a48e3c3f11468cd615a8fe69911d32cf7",
+      "size": 689
+    },
+    {
+      "blob_oid": "b7d79d57e76450fe6e2392c61d336dddda7e94e9",
+      "mode": "100644",
+      "path": ".github/actionlint.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "b654b735a199dc415c17b05106cc1820f53566b328987f1822880e69ce1d2fa0",
+      "size": 150
+    },
+    {
+      "blob_oid": "c1f7b4d032cca4e50be98f9a1f47bd972b52be47",
+      "mode": "100644",
+      "path": ".github/actions/u26/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "88cd150e3705c174c837ab576c4fca8acc95e9018ace861c432b214c1bf50629",
+      "size": 1574
+    },
+    {
+      "blob_oid": "895c6ba00a52d59449eff60c34c2ac95dd2134a6",
+      "mode": "100644",
+      "path": ".github/actions/velnor-tool-seed/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "912b153c2c885d3754139e82a185e51c7b0c5a94adea3bb7d93cacf529e257be",
+      "size": 5909
+    },
+    {
+      "blob_oid": "89cb2705c721646378cc73aabe59a2bf58dadd24",
+      "mode": "100644",
+      "path": ".github/actions/velnor-tools-cache-restore/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "3cb6dda1f789147cb5f62b5a07913d4381330e5aa20386291c0a5846b5208a29",
+      "size": 2535
+    },
+    {
+      "blob_oid": "a40594b54de7524d79fb5393bfc4ab52042f044a",
+      "mode": "100644",
+      "path": ".github/actions/velnor-tools-prelude-u26/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "1885cab527ad97e6cd114b610f99b1b35c9984e1bf78e32a01957c8515a7798e",
+      "size": 902
+    },
+    {
+      "blob_oid": "11f1ca2a1ecbca02ceed3233a3b7d640a534709a",
+      "mode": "100644",
+      "path": ".github/scripts/velnor-tools-cache-identity.sh",
+      "remote_refs_reachable": true,
+      "sha256": "8cbfb0a9b7dcb964365cebd2caa825475b1f206332d3edd2ed0b9ef104ec1289",
+      "size": 5808
+    },
+    {
+      "blob_oid": "f63c601ea2fc4de0bed8d86576072f1b82bf2f75",
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "remote_refs_reachable": true,
+      "sha256": "fcba4d4e6b83532f034421bb7ef519d10ca42d03e233133a06d30fb4002dbc4b",
+      "size": 30278
+    },
+    {
+      "blob_oid": "9c07c1cc503660276fbefbf83c0a9fa964af450a",
+      "mode": "100644",
+      "path": ".gitignore",
+      "remote_refs_reachable": true,
+      "sha256": "41800e3b692ad00973c93e191196cfdb0d7657482e6b5066b25fd3c90c46fe56",
+      "size": 48
+    },
+    {
+      "blob_oid": "fb0f1969d00bbfc9dc280b05f207deca2e2307b0",
+      "mode": "100644",
+      "path": ".kimi-plugin/plugin.json",
+      "remote_refs_reachable": true,
+      "sha256": "8fb6b923ab1300f75a215c3ad5394132417330e9eda0204fc2628af8403f3ffb",
+      "size": 511
+    },
+    {
+      "blob_oid": "69586c12a3a0e3eb9db4f40130ae40b424038f04",
+      "mode": "100644",
+      "path": "AGENTS.md",
+      "remote_refs_reachable": true,
+      "sha256": "2703de31b33e2a619c17f8bafc18656e2c5ba3e645a0425f7b24e87c6c70bd44",
+      "size": 1596
+    },
+    {
+      "blob_oid": "af080fcce61bfb2b39bf9dafd74bced679b66315",
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "remote_refs_reachable": true,
+      "sha256": "51233a6fdef39ccccbd430fa975facc66ca5bc267f94cbdb7d7eb936bb869a4b",
+      "size": 2062
+    },
+    {
+      "blob_oid": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "mode": "100644",
+      "path": "LICENSE",
+      "remote_refs_reachable": true,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size": 11357
+    },
+    {
+      "blob_oid": "41fc702dd9aabe8870f8b91cd393f21231d11c61",
+      "mode": "100644",
+      "path": "README.md",
+      "remote_refs_reachable": true,
+      "sha256": "c3e442515ab2b6e9c07ba1dc653f5d140c22b06d6ea66e719c8df5441b42625f",
+      "size": 4219
+    },
+    {
+      "blob_oid": "7895b973ed8bcf91606dfb9d80f6fedb499885d5",
+      "mode": "100644",
+      "path": "docs/README.md",
+      "remote_refs_reachable": true,
+      "sha256": "5bbe0ccb1a8eee7d768641631f67d1e39521971b323ef73e70b4a5e087083259",
+      "size": 1978
+    },
+    {
+      "blob_oid": "86de6c118d1aafc2bcb0e874edd7c27d0ff836b9",
+      "mode": "100644",
+      "path": "docs/compatibility.md",
+      "remote_refs_reachable": true,
+      "sha256": "4879edf1d460130fb4167f7a16aaa5e684ce2979f01f5e173861fea40c245672",
+      "size": 2697
+    },
+    {
+      "blob_oid": "0790d54f0503c78c5b4e810d6a8148fff181d9d0",
+      "mode": "100644",
+      "path": "docs/installation.md",
+      "remote_refs_reachable": true,
+      "sha256": "bdfeb431c3dfe1d0edd8bac3f3f46c96239629b5bc525e5123755c4bee4ef820",
+      "size": 22598
+    },
+    {
+      "blob_oid": "6bd4194c0382cdeee290baf86c9ce52f9d48c60b",
+      "mode": "100644",
+      "path": "docs/maintenance.md",
+      "remote_refs_reachable": true,
+      "sha256": "70f17c21c5d1e2452b641842baae0f06a34170df762e73c74edafa8225236183",
+      "size": 6692
+    },
+    {
+      "blob_oid": "3dca4c26826a0eb129a1f39c26c9099ddca7b33b",
+      "mode": "100644",
+      "path": "docs/troubleshooting.md",
+      "remote_refs_reachable": true,
+      "sha256": "b3e3fff10e736dd4f1b95e2a657e5c9232de91e3392695222470381ecebbd211",
+      "size": 3636
+    },
+    {
+      "blob_oid": "125d349c4c77be35621dbe9d4006f88fac42d682",
+      "mode": "100644",
+      "path": "docs/usage.md",
+      "remote_refs_reachable": true,
+      "sha256": "8b1fed9ddc47618149ff64ab09068b5c00e5bd2381c9bdb61aac0dbbaf82609c",
+      "size": 3359
+    },
+    {
+      "blob_oid": "568c5b7986b81a90bc4fbb4ddaa527ee68339270",
+      "mode": "100644",
+      "path": "plugin.json",
+      "remote_refs_reachable": true,
+      "sha256": "6cad8609ec5d9dd594849b6aefcd5312e881cac999fbbf7cfbb3a314cc445451",
+      "size": 737
+    },
+    {
+      "blob_oid": "a5c0d9d52102c10c08146e71dfdfcd360925c60f",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-prepare/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "48dd4cd2c673dc5015914af4f716adb6ff0950ad1422ed4af1d378a7d45be0a2",
+      "size": 5499
+    },
+    {
+      "blob_oid": "6a8c5654959e66306b344b13b98e1f6fcb1412b0",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-prepare/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "67c6701e23fc608c1518e258786d6e221a7751083aa238086a91c0637b8b6133",
+      "size": 348
+    },
+    {
+      "blob_oid": "76baab517e6d1ca8763a8e6c63d66318b92c30cd",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-prepare/references/contribution-handoff.md",
+      "remote_refs_reachable": true,
+      "sha256": "39675d609c1ee9418d378d0868189f17ede5fda80d036e5f9f6829805e1afd49",
+      "size": 2864
+    },
+    {
+      "blob_oid": "30a7e5e29111aaf16170c40fa1db2f82575fa8f4",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-prepare/references/preparation-gate.md",
+      "remote_refs_reachable": true,
+      "sha256": "bd87b85659e7de412c385bd052b41ae7cb585841491cb6f8c353a7f2d9695787",
+      "size": 1265
+    },
+    {
+      "blob_oid": "9c6155d216a9fb2f13937e37b117f29204771930",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-prepare/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "2381101c1fb29e0cd2847f318e21d777dde4c65cf3dd740f3f13c1d8813e2b09",
+      "size": 768
+    },
+    {
+      "blob_oid": "66af676a5af8260dafebf9353f3b705d8b1fb336",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-propose/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "b691a5aec2f9313f9ad373aa7fdc8d4bc39cd4addc614b0005b6969a6bd47fd1",
+      "size": 4552
+    },
+    {
+      "blob_oid": "68d8a0a75b901fc4c96e987b71952b8ac8f091dd",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-propose/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "a7db92593c0f1c4e529a02f058d3ecec238c58a411e870c2db6612a9442aae65",
+      "size": 330
+    },
+    {
+      "blob_oid": "76baab517e6d1ca8763a8e6c63d66318b92c30cd",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-propose/references/contribution-handoff.md",
+      "remote_refs_reachable": true,
+      "sha256": "39675d609c1ee9418d378d0868189f17ede5fda80d036e5f9f6829805e1afd49",
+      "size": 2864
+    },
+    {
+      "blob_oid": "88af58e10f7dc810495f51079d0640741b522141",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-propose/references/etiquette-and-hard-stops.md",
+      "remote_refs_reachable": true,
+      "sha256": "4d6b9a22ddfec55b4db58f59c74ca0b1b9fe4c2986fde7ba488ddc8564813b2b",
+      "size": 1471
+    },
+    {
+      "blob_oid": "9c6155d216a9fb2f13937e37b117f29204771930",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-propose/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "2381101c1fb29e0cd2847f318e21d777dde4c65cf3dd740f3f13c1d8813e2b09",
+      "size": 768
+    },
+    {
+      "blob_oid": "ddbc3407b897daef3975075a6b8a1168e518cdb3",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-recon/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "2e1c6cc025ea9b2f108b12233821146f9a0c5bcdbf1ed8db6b008d739a39cdaf",
+      "size": 4695
+    },
+    {
+      "blob_oid": "2fe350ad7e213e5bd34f522d17beb08325fdab6f",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-recon/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "260e038130eb6ddb388e54e8c73a51b2a67885b5365a76f46484fa37d8eb5d49",
+      "size": 324
+    },
+    {
+      "blob_oid": "76baab517e6d1ca8763a8e6c63d66318b92c30cd",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-recon/references/contribution-handoff.md",
+      "remote_refs_reachable": true,
+      "sha256": "39675d609c1ee9418d378d0868189f17ede5fda80d036e5f9f6829805e1afd49",
+      "size": 2864
+    },
+    {
+      "blob_oid": "9b81daab0e680a769c0ea87f59f4a659f44aed23",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-recon/references/project-contract.md",
+      "remote_refs_reachable": true,
+      "sha256": "0db6d4456f1c112ac17c6b37b5d6645efed02cb018ef70900e5766116677c282",
+      "size": 1587
+    },
+    {
+      "blob_oid": "9c6155d216a9fb2f13937e37b117f29204771930",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-recon/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "2381101c1fb29e0cd2847f318e21d777dde4c65cf3dd740f3f13c1d8813e2b09",
+      "size": 768
+    },
+    {
+      "blob_oid": "82b86306abeb4356f501960e7159c2c5c9bf8df0",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-respond/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "841193e76be2387f523e08bec8440b710f5cf0dc76174602bb732150a2fb8955",
+      "size": 4870
+    },
+    {
+      "blob_oid": "bfe94d34029628acace717b82b7e82bb9ee63486",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-respond/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "fa7031fbfd9f034ce29970f48bd452b7d3664fb517c856081940c733b8357730",
+      "size": 342
+    },
+    {
+      "blob_oid": "76baab517e6d1ca8763a8e6c63d66318b92c30cd",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-respond/references/contribution-handoff.md",
+      "remote_refs_reachable": true,
+      "sha256": "39675d609c1ee9418d378d0868189f17ede5fda80d036e5f9f6829805e1afd49",
+      "size": 2864
+    },
+    {
+      "blob_oid": "7c210f15c4046a6c15efd980782417330437c077",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-respond/references/review-response.md",
+      "remote_refs_reachable": true,
+      "sha256": "2871968c7e22db67737555f4688c0d3d5648e64ab3c985151be3fc48807c5d2e",
+      "size": 1198
+    },
+    {
+      "blob_oid": "9c6155d216a9fb2f13937e37b117f29204771930",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-respond/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "2381101c1fb29e0cd2847f318e21d777dde4c65cf3dd740f3f13c1d8813e2b09",
+      "size": 768
+    },
+    {
+      "blob_oid": "5224db08ce0f110f5974a3c4b5f95556cdbb830f",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-submit/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "42ec2f0647e376f2f3035d56ff4fe0455d726bdf1c1f3316e9b9bbd1ff8f6d05",
+      "size": 5085
+    },
+    {
+      "blob_oid": "6cf4dbeb55d1c62756fa47a0eb3fa529b93f8b65",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-submit/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "33fa8f4a6377619cf2ea5c233aef14c67d70b1b879d87db599e07896d08d56a9",
+      "size": 343
+    },
+    {
+      "blob_oid": "76baab517e6d1ca8763a8e6c63d66318b92c30cd",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-submit/references/contribution-handoff.md",
+      "remote_refs_reachable": true,
+      "sha256": "39675d609c1ee9418d378d0868189f17ede5fda80d036e5f9f6829805e1afd49",
+      "size": 2864
+    },
+    {
+      "blob_oid": "9c6155d216a9fb2f13937e37b117f29204771930",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-submit/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "2381101c1fb29e0cd2847f318e21d777dde4c65cf3dd740f3f13c1d8813e2b09",
+      "size": 768
+    },
+    {
+      "blob_oid": "45b028f7f54973e114bf1abe442b65b2182bc06a",
+      "mode": "100644",
+      "path": "skills/tailrocks-contribute-submit/references/submission-protocol.md",
+      "remote_refs_reachable": true,
+      "sha256": "87621681e91b35076d8e31b411b474eda537147eeb13a342a970e48e036fd742",
+      "size": 1306
+    }
+  ],
+  "missing_tracked_worktree_paths_disposition": "UNKNOWN_INCOMPLETE_CHECKOUT; do not synthesize D changes; each missing path maps to verified base tree bytes",
+  "present_worktree_bytes_archived_under": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/worktree",
+  "raw_git_admin_bytes_archived_under": "recovery/source-only/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/git-admin",
+  "remote_base_commit": "39067051d44f1375fecffa4e11eb6b60dfa0aafa",
+  "remote_base_ref": "refs/pull/7/head",
+  "repository": "tailrocks/tailrocks-contribution-skills",
+  "repository_id": 1353758049,
+  "schema": "source-only-github-recovery-archive-v1",
+  "snapshot_entries": [
+    {
+      "ctime_ns": 1791952164837617139,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117922331,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951793000000000,
+      "nlink": 7,
+      "relative_path": ".git",
+      "size": 224,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954551815130729,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117925947,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/COMMIT_EDITMSG",
+      "sha256": "157b8c0320a72eb8d1bcdd825d65cae3a93a3035c63c3b3fcd3fcb4ec1571ac6",
+      "size": 84,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954553023680021,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117925948,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/index",
+      "sha256": "9f1ed081c212ae80fa7aca27c627f51f95289eabcb124690547d395b3923d301",
+      "size": 6687,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951110789090131,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117925949,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 4,
+      "relative_path": ".git/logs",
+      "size": 128,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954554203724761,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117930534,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/logs/HEAD",
+      "sha256": "91a4a3f716bddf5e8ef21e42d4b7f77cea761d2bb66d83c1a16e9a006f6357b8",
+      "size": 2079,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951170847519072,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930535,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 4,
+      "relative_path": ".git/logs/refs",
+      "size": 128,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951230710035267,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117935269,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/heads",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951890922075935,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117940215,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/heads/codex",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954555508648962,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117973214,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/logs/refs/heads/codex/chatgpt-web-consumer-validators",
+      "sha256": "d44731f9d970c83500603b4bef6716da8d58d3a4eb73547d8351be041baee62b",
+      "size": 780,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951230583998950,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117935270,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/remotes",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951890734678417,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117940205,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/remotes/origin",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951903625515933,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117973211,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/remotes/origin/codex",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954556696171308,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117973262,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906101000000000,
+      "nlink": 1,
+      "relative_path": ".git/logs/refs/remotes/origin/codex/chatgpt-web-consumer-validators",
+      "sha256": "e3a0af22db4fc85d9e57c474b1848c060af778b1ca6e5ee5f7c7b33fe15a5f2b",
+      "size": 450,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791952164830963570,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117925950,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951793000000000,
+      "nlink": 7,
+      "relative_path": ".git/objects",
+      "size": 224,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791952164904168493,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930536,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951793000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/98",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954558006823190,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117976389,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/98/cdbe2beed81fa832112cd0e56ebd2fd172d556",
+      "sha256": "402aa47d38ca3235e95df32430f21b0838d72eb9ced96c32a255296265badf08",
+      "size": 51,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951171124058447,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930537,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950969000000000,
+      "nlink": 2,
+      "relative_path": ".git/objects/a0",
+      "size": 64,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791952164891576359,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930538,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951793000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/e0",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954558981101512,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117976387,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/e0/a54ffde537414825aac71f362d5d804c802a62",
+      "sha256": "51251f0ffc300123d9272e8eb08f96c350ef020856ae185ddbf41664ad495639",
+      "size": 55,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791952164901319856,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930539,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951773000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/e7",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954559987211966,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117976388,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/e7/6be1abb79374fb06ee928e48675c372c4eb1cb",
+      "sha256": "6fba28150b9466544d4d186d04eb8b69560e61078a89a292e3d5ab7cf1f14918",
+      "size": 55,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791952164888487846,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930540,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951791000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/eb",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954560990138994,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117976386,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/eb/4b4c3ca438a0137dc161a3296193ed43367679",
+      "sha256": "c00bc884b7323f3962d85e89a500dc06837739a3823500a2d0f2bcd373355b9c",
+      "size": 159,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951111324348962,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117925951,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 4,
+      "relative_path": ".git/refs",
+      "size": 128,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951890735273295,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930570,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/heads",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951903624915721,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117973210,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950974000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/heads/codex",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954562127788077,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117973261,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906095000000000,
+      "nlink": 1,
+      "relative_path": ".git/refs/heads/codex/chatgpt-web-consumer-validators",
+      "sha256": "a4b229cba4bb00e6978e716cb21ddc3bd2c852eb3dce6f86d2b0cc8987e7b324",
+      "size": 41,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951890921395973,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117930592,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950975000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/remotes",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951903623864716,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117973213,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950974000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/remotes/origin",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951963692956831,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117973260,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950974000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/remotes/origin/codex",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954563079465135,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117973650,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906101000000000,
+      "nlink": 1,
+      "relative_path": ".git/refs/remotes/origin/codex/chatgpt-web-consumer-validators",
+      "sha256": "a4b229cba4bb00e6978e716cb21ddc3bd2c852eb3dce6f86d2b0cc8987e7b324",
+      "size": 41,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951050602732555,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117922332,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950962000000000,
+      "nlink": 2,
+      "relative_path": ".github",
+      "size": 64,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951050845556893,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117922333,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950962000000000,
+      "nlink": 3,
+      "relative_path": ".github.velnor-stage",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951110828089361,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117925958,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950962000000000,
+      "nlink": 2,
+      "relative_path": ".github.velnor-stage/spare",
+      "size": 64,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951050619441552,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117922334,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791950963000000000,
+      "nlink": 4,
+      "relative_path": ".velnor",
+      "size": 128,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954564228752000,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117925939,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791845316000000000,
+      "nlink": 1,
+      "relative_path": ".velnor/config.toml",
+      "sha256": "01d2b1b374114c31bccd851bf432b0cfe95cfd921152db0843c26a0f09a104f3",
+      "size": 653,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791954565357838972,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117925940,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906082000000000,
+      "nlink": 1,
+      "relative_path": ".velnor/release-manifest.json",
+      "sha256": "eeecd05bd116504734e97b071a8f666e705c881184a1ff7f56012e4e8e81f39b",
+      "size": 953,
+      "uid": 501,
+      "xattrs": {}
+    }
+  ],
+  "snapshot_manifest_sha256": "7e9c78bc60c7a959fe8be8bd80c9d1142c20f66e1e7ac195134c3e3b3fcd1958",
+  "snapshot_manifest_source_path": "/Users/donbeave/.local/state/github-repatriation/operations/user-request-20261013T2201Z/supplemental-icloud-28/reappeared-two-source-only-v1/snapshots/10dd71aa8bd43a8b729500cf/27d06df78f597346da93fe60/source-snapshot-manifest.json",
+  "snapshot_tree_sha256": "622b8bfd90b67246f270768393a771773731a6f9c7e10907abc7ce87e77d950d",
+  "source_branch_refs": {
+    "refs/heads/codex/chatgpt-web-consumer-validators": "39067051d44f1375fecffa4e11eb6b60dfa0aafa",
+    "refs/remotes/origin/codex/chatgpt-web-consumer-validators": "39067051d44f1375fecffa4e11eb6b60dfa0aafa"
+  },
+  "source_config_file_present": false,
+  "source_current_identity": {
+    "dev": 16777234,
+    "ino": 117921659,
+    "mode": 448
+  },
+  "source_head_file_present": false,
+  "source_head_reflog_terminal_sha": "39067051d44f1375fecffa4e11eb6b60dfa0aafa",
+  "source_id": "b1b40b5f04342169a2f93d83",
+  "source_parent_chain": [
+    {
+      "dev": 16777234,
+      "ino": 2,
+      "mode": 493,
+      "path": "/"
+    },
+    {
+      "dev": 16777234,
+      "ino": 20994,
+      "mode": 493,
+      "path": "/Users"
+    },
+    {
+      "dev": 16777234,
+      "ino": 47530,
+      "mode": 488,
+      "path": "/Users/donbeave"
+    },
+    {
+      "dev": 16777234,
+      "ino": 47537,
+      "mode": 448,
+      "path": "/Users/donbeave/Library"
+    },
+    {
+      "dev": 16777234,
+      "ino": 81285,
+      "mode": 320,
+      "path": "/Users/donbeave/Library/Mobile Documents"
+    },
+    {
+      "dev": 16777234,
+      "ino": 81286,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs"
+    },
+    {
+      "dev": 16777234,
+      "ino": 108966,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents"
+    },
+    {
+      "dev": 16777234,
+      "ino": 138943,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658265,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658271,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658344,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112697987,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work/dco"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112698000,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work/dco/contribution-pr7"
+    }
+  ],
+  "source_root_path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work/dco/contribution-pr7/repo",
+  "source_root_present_at_snapshot": true
+}

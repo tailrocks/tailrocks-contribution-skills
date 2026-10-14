@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 25a3f6a9a66937ff5d70cbc35909cb2904a5b7d5 Alexey Zhokhov <alexey@zhokhov.com> 1791836583 +0700	clone: from https://github.com/tailrocks/tailrocks-contribution-skills.git
+25a3f6a9a66937ff5d70cbc35909cb2904a5b7d5 8a93ad7410ba83044d2c4980ee2a1ac36f4112e8 Alexey Zhokhov <alexey@zhokhov.com> 1791836583 +0700	checkout: moving from main to codex/chatgpt-web-consumer-validators
+8a93ad7410ba83044d2c4980ee2a1ac36f4112e8 842ca4723e696102e03498e726f9403b30a1e48e Alexey Zhokhov <alexey@zhokhov.com> 1791836596 +0700	rebase (start): checkout origin/main
+842ca4723e696102e03498e726f9403b30a1e48e 980b58f91446d1c3836a0ac4f8acdaa20848be51 Alexey Zhokhov <alexey@zhokhov.com> 1791836596 +0700	commit (amend): ci: add package content validators
+980b58f91446d1c3836a0ac4f8acdaa20848be51 03040859983a6c9c218a76305ba3a7cac3539aff Alexey Zhokhov <alexey@zhokhov.com> 1791836596 +0700	rebase (pick): ci: check local documentation links
+03040859983a6c9c218a76305ba3a7cac3539aff 4a0e2ef2c5bf938b714d250ac5f6ee6654a4f9e2 Alexey Zhokhov <alexey@zhokhov.com> 1791836596 +0700	commit (amend): ci: check local documentation links
+4a0e2ef2c5bf938b714d250ac5f6ee6654a4f9e2 7c0dc5108eb0365198f2bea854e99bd23f126ee8 Alexey Zhokhov <alexey@zhokhov.com> 1791836596 +0700	rebase (pick): ci: correct local link validation
+7c0dc5108eb0365198f2bea854e99bd23f126ee8 2ff2ef8c68cb0e44bea06e008f683ede3b474d73 Alexey Zhokhov <alexey@zhokhov.com> 1791836596 +0700	commit (amend): ci: correct local link validation
+2ff2ef8c68cb0e44bea06e008f683ede3b474d73 2ff2ef8c68cb0e44bea06e008f683ede3b474d73 Alexey Zhokhov <alexey@zhokhov.com> 1791836596 +0700	rebase (finish): returning to refs/heads/codex/chatgpt-web-consumer-validators
+2ff2ef8c68cb0e44bea06e008f683ede3b474d73 97dc797b7b06b1d969a6d6b268d813ab2b190b78 Alexey Zhokhov <alexey@zhokhov.com> 1791900293 +0700	commit: ci: validate local link fragments
+97dc797b7b06b1d969a6d6b268d813ab2b190b78 39067051d44f1375fecffa4e11eb6b60dfa0aafa Alexey Zhokhov <alexey@zhokhov.com> 1791906095 +0700	commit: ci: pin Lychee release directly
