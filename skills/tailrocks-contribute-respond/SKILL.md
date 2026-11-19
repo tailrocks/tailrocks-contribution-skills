@@ -6,10 +6,7 @@ description: >-
   on an explicit user request. Authorization for one action never
   covers another action. This skill never acts without authorization
   and never protests publicly.
-argument-hint: "<submitted contribution handoff>"
-disable-model-invocation: true
 license: Apache-2.0
-user-invocable: true
 ---
 
 # Contribute Respond
@@ -34,6 +31,9 @@ Do not use this skill for new scope. New scope returns to proposal.
 Do not use this skill to reopen a rejection or to protest publicly.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Collect these inputs:
 

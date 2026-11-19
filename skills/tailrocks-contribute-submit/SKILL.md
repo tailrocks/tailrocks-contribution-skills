@@ -5,10 +5,7 @@ description: >-
   authorized push and pull-request actions. Use only on an explicit
   user request. Revalidates remote state before every action and
   reports partial publication honestly.
-argument-hint: "<prepared contribution handoff>"
-disable-model-invocation: true
 license: Apache-2.0
-user-invocable: true
 ---
 
 # Contribute Submit
@@ -34,6 +31,9 @@ belong to the respond skill. Do not use this skill when the prepared state is
 stale or the gates are missing.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Collect these inputs:
 

@@ -6,10 +6,7 @@ description: >-
   explicit user request. Push and sign only with explicit user
   authorization. This skill never submits and never mutates the
   upstream project.
-argument-hint: "<authorized proposal and fork clone>"
-disable-model-invocation: true
 license: Apache-2.0
-user-invocable: true
 ---
 
 # Contribute Prepare
@@ -36,6 +33,9 @@ submit skill. Do not use this skill for upstream-owned paths or for scope
 beyond the authorized proposal.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Collect these inputs:
 
