@@ -1,6 +1,6 @@
 # Installation
 
-`tailrocks-contribution-skills` version `0.29.1` contains 5 skills.
+`tailrocks-contribution-skills` version `0.29.2` contains 5 skills.
 The package source is [tailrocks/tailrocks-contribution-skills][package].
 The [Tailrocks catalog][catalog] pins one upstream commit per package.
 
@@ -51,9 +51,11 @@ grok plugin marketplace add tailrocks/tailrocks-skills
 grok plugin install tailrocks-contribution-skills --trust
 ```
 
-`--trust` grants the plugin access to Grok's extension runtime. Review the
-source before installing. Use `/tailrocks-contribute-prepare` in the session. On a name
-collision, `grok inspect --json` reports the qualified `invocableAs` shortcut.
+Review the source before running the command.
+The example uses `--trust` to grant trust immediately and skip confirmation.
+The tested managed install enabled the
+plugin. Use `/tailrocks-contribute-prepare` in the session. On a name collision,
+`grok inspect --json` reports the qualified `invocableAs` shortcut.
 
 Use `grok plugin marketplace list` to find the registered marketplace name.
 Refresh that marketplace, then run `grok plugin update tailrocks-contribution-skills`.
@@ -149,9 +151,10 @@ The commands check out the selected commit and pass the local directory to
 `agy plugin install`. Antigravity's named marketplace installs address its
 official marketplace. Tailrocks uses the local package installer.
 
-Use `/tailrocks-contribute-prepare` in chat. Inspect `agy plugin list --json` for
-installed components. For a new pin, install the updated checkout. If the CLI
-reports an installed copy, uninstall it first, then repeat the install.
+Use `/tailrocks-contribute-prepare` in chat. Inspect `agy plugin list --json` for the
+enabled state, version, and installed skills. For a new pin, install the updated
+checkout. If the CLI reports an installed copy, uninstall it and repeat the
+install.
 Remove with `agy plugin uninstall tailrocks-contribution-skills`. [Antigravity plugins][agy]
 
 ## pi
