@@ -1,6 +1,6 @@
 # Installation
 
-`tailrocks-contribution-skills` version `0.29.3` contains 5 skills.
+`tailrocks-contribution-skills` version `0.29.4` contains 5 skills.
 The package source is [tailrocks/tailrocks-contribution-skills][package].
 The [Tailrocks catalog][catalog] pins one upstream commit per package.
 
