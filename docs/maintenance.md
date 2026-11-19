@@ -102,3 +102,11 @@ To find violations, search case-insensitively for `benchmark`,
 Include `judge`, `grader`, `pass-rate`, and `task trial`. Before a
 change, read the surrounding text: a prohibition or a historical
 explanation is not an active requirement.
+
+## Dependency lockfile
+
+Use Bun 1.4.4 for native dependency maintenance.
+Update the committed lockfile with `bun install --lockfile-only --ignore-scripts`.
+Verify it with `bun install --frozen-lockfile --lockfile-only --ignore-scripts`.
+Ship the lockfile with the complete native package.
+These checks do not run dependency lifecycle scripts.

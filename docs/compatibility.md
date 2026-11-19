@@ -1,6 +1,6 @@
 # Compatibility and verification
 
-`tailrocks-contribution-skills` version `0.29.0` publishes 5 skills from
+`tailrocks-contribution-skills` version `0.29.1` publishes 5 skills from
 one `skills/<id>/SKILL.md` tree. Each skill keeps its references, scripts,
 and assets in the installed package.
 
