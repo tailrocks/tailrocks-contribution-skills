@@ -5,10 +5,7 @@ description: >-
   venue proposal or a hard-stop redirect. Use only on an explicit
   user request. This skill uses no network access. It never edits
   the fork, contacts maintainers, claims work, or posts.
-argument-hint: "<contrib handoff and proposed change>"
-disable-model-invocation: true
 license: Apache-2.0
-user-invocable: true
 ---
 
 # Contribute Propose
@@ -35,6 +32,9 @@ to the prepare skill. Do not use this skill to contact maintainers or to post.
 Drafts never leave the local handoff.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Collect these inputs:
 

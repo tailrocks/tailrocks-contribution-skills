@@ -5,10 +5,7 @@ description: >-
   contribution contract in a local handoff. Use only on an explicit
   user request. Read-only toward the target and the fork. This skill
   never proposes, edits, or submits.
-argument-hint: "<repo-url|owner/repo> [issue-number]"
-disable-model-invocation: true
 license: Apache-2.0
-user-invocable: true
 ---
 
 # Contribute Recon
@@ -37,9 +34,12 @@ already covers the target and the requested issue.
 
 ## Before you start
 
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
+
 Collect these inputs:
 
-- Canonical target identity: host, owner, and repository name.
+- A repository URL or `owner/repo` that identifies the canonical target.
 - Requested issue number, when the user gives one.
 - Local handoff root for the project.
 - Current date and time.

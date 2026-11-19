@@ -18,15 +18,15 @@ All five skills are user-only and need an explicit human command:
 
 ## Guides
 
-Read these guides:
-
-- `installation.md` installs the package on eight coding agents.
-- `usage.md` shows how to select each skill and what each skill
-  returns.
-- `compatibility.md` records the test result of each client route.
-- `maintenance.md` lists the checks, the policy version, and the
-  release procedure.
-- `troubleshooting.md` fixes common install and selection failures.
+- [Installation](installation.md) gives the native host routes.
+- [Usage](usage.md) shows how to select a skill and use its arguments.
+- [Runtime requirements](runtime.md) lists the tools and packaged resources.
+- [Package structure](architecture.md) explains file ownership.
+- [Model choices](models.md) explains role selection and effort.
+- [Compatibility](compatibility.md) records host behavior and limits.
+- [Verification](verification.md) lists package checks and observed evidence.
+- [Maintenance](maintenance.md) gives generator and release procedures.
+- [Troubleshooting](troubleshooting.md) helps diagnose installation or use.
 
 ## Skills
 
@@ -43,8 +43,4 @@ Each skill body lives in its own directory under `skills/`. Read
 
 ## Requirements
 
-All contribution workflows need Git and `gh`. Fork and pull-request
-creation, submission, and review responses need an authenticated `gh`
-session with access to the fork and the target project. Only
-GitHub.com is supported. GitHub Enterprise is unsupported. Read-only
-reconnaissance can run without authentication.
+See [runtime requirements](runtime.md) for the tools and files the skills use.
